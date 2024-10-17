@@ -1,0 +1,246 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+    background-color: #E4F9F5;
+  }
+
+#Menu{
+    list-style-type: none;
+    background-color: #30E3CA;
+    display: flex;
+    justify-content:space-around;
+    position: fixed;
+
+    padding: 0px;
+    margin-top: -80px; /*??? Perchè la misura parte dalla sezione titolo e non occupa uno spazio iniziale ???*/
+    width: 100%;
+
+    font-family: 'Open sans';
+    font-size: 20px;
+}
+
+#Menu li{
+    margin: 20px;
+}
+
+#Menu li a{
+    text-decoration: none;
+    color: #40514E;
+    padding: 10px 30px;
+}
+
+#Menu-Bordo{
+    padding: 10px;
+    border: 2px solid #40514E; 
+    border-radius: 20px;
+}
+
+#Menu li a:hover {
+    color: #11999E; 
+}
+
+#Titolo{
+
+    margin-top: 80px; 
+    
+    background-image: url(/immagini/Sfondo\ Definitivo.png);
+    background-position: center;
+    background-repeat: none;
+    height: 410px;
+
+    padding: 100px;    
+    padding-right: 165px;
+    text-align: end;
+    font-family: 'Montserrat';
+    font-size: 100px;
+    color: #E4F9F5;
+    margin-bottom: -25px;
+}
+
+h2{
+    font-family: 'Lora';
+    text-align: center;
+    color: #40514E;
+    font-size: 30px;
+    background-color: #30E3CA;
+    padding: 15px;
+    
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    color: #40514E;
+}
+
+h4{
+    color: #40514E;
+}
+
+strong{
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:#11999E
+}
+
+a {
+    text-decoration: none;    
+}
+
+#Home-Corpo{
+
+    display: flex;                    
+    align-items: center;             
+    padding: 0px 30px 0px 30px;
+    border: 0px 30px 0px 30px;
+    margin: -20px 0px 0px 0px;
+}
+
+#Home-Testo {
+    width: 60%;                         
+    margin-right: 20px;             
+}
+
+#Home-Immagine {
+    display: flex;
+    flex-direction: column; 
+    width: 40%;
+}
+
+#Home-Immagine img{                 
+    border-radius: 8px;
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+#Frazioni-Corpo{
+
+    display: flex;                    
+    align-items: center;    
+    flex-direction: row-reverse;         
+    padding: 0px 30px 0px 30px;
+    border: 0px 30px 0px 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+#Frazioni-Testo {
+    width: 90%;                         
+    margin-left: 20px;             
+}
+
+#Frazioni-Immagine {
+    display: flex;
+    flex-direction: column; 
+    width: 40%;
+}
+
+#Frazioni-Immagine img{                    
+    border-radius: 8px;
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+#Frazioni-Elenco{
+    list-style:circle;
+}
+
+#Attività-Corpo{
+
+    display: flex;                    
+    align-items: center;             
+    padding: 0px 30px 0px 30px;
+    border: 0px 30px 0px 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+#Attività-Testo {
+    width: 90%;                         
+    margin-right: 20px;             
+}
+
+#Attività-Immagine {
+    display: flex;
+    flex-direction: column; 
+    width: 19%;
+}
+
+#Attività-Immagine img{                    
+    border-radius: 8px;
+    height: 300px;
+    width: 280px;
+    margin-bottom: 5px;
+}
+
+#Attività-Immagine video{                   
+    border-radius: 10px;
+    height: 500px;
+    margin-bottom: 5px;
+}
+
+#Attività-Elenco{
+    list-style:circle;
+}
+
+#Attività-SottoElenco{
+    list-style:square;
+}
+
+#Hotel-Corpo{
+
+    display: flex;                    
+    align-items: center;  
+    flex-direction: row-reverse;           
+    padding: 0px 30px 0px 30px;
+    border: 0px 30px 0px 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+#Hotel-Testo {
+    width: 90%;                         
+    margin-left: 20px;             
+}
+
+#Hotel-Immagine {
+    display: flex;
+    flex-direction: column; 
+    width: 19%;
+}
+
+#Hotel-Immagine img{                   
+    border-radius: 8px;
+    height: 300px;
+    width: 280px;
+    margin-bottom: 15px;
+}
+
+#Hotel-Elenco{
+    list-style:circle;
+}
+
+#Fondo-Pagina{
+
+    display: flex;                    
+    align-items: center;             
+    padding: 30px 30px 20px 30px;
+    border: 0px 30px 0px 30px;
+    margin: -70px 0px 0px 0px;
+    background-color: #30E3CA
+}
+
+#Fondo-Pagina-Contatti {
+    width: 50%;                         
+    margin-left: 20px;      
+    text-align: center;       
+}
+
+#Fondo-Pagina-Social
+{
+    width: 50%;                         
+    margin-right: 20px;   
+    text-align: center;          
+}
